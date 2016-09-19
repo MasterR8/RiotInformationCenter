@@ -1,0 +1,5 @@
+E:\OneDrive\C#\Philipp Bolliger GitHub\Prüfungen\MenuPlanningApp\MvvmCommon\bin\Release\MvvmCommon.dll
+E:\OneDrive\C#\Philipp Bolliger GitHub\Prüfungen\MenuPlanningApp\MvvmCommon\bin\Release\MvvmCommon.pdb
+E:\OneDrive\C#\Philipp Bolliger GitHub\Prüfungen\MenuPlanningApp\MvvmCommon\obj\Release\MvvmFramework.csprojResolveAssemblyReference.cache
+E:\OneDrive\C#\Philipp Bolliger GitHub\Prüfungen\MenuPlanningApp\MvvmCommon\obj\Release\MvvmCommon.dll
+E:\OneDrive\C#\Philipp Bolliger GitHub\Prüfungen\MenuPlanningApp\MvvmCommon\obj\Release\MvvmCommon.pdb
