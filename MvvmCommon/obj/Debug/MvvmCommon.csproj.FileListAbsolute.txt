@@ -1,0 +1,5 @@
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\MvvmCommon\obj\Debug\MvvmCommon.csprojResolveAssemblyReference.cache
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\MvvmCommon\bin\Debug\MvvmCommon.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\MvvmCommon\bin\Debug\MvvmCommon.pdb
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\MvvmCommon\obj\Debug\MvvmCommon.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\MvvmCommon\obj\Debug\MvvmCommon.pdb

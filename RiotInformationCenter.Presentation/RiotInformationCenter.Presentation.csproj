@@ -95,6 +95,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MvvmCommon\MvvmCommon.csproj">
+      <Project>{9e7c9cee-d3d8-4630-9a10-72ed495b2028}</Project>
+      <Name>MvvmCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RiotInformationCenter.BusinessLayer\RiotInformationCenter.BusinessLayer.csproj">
+      <Project>{927b206b-8d25-4802-8830-967f6cbcc344}</Project>
+      <Name>RiotInformationCenter.BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

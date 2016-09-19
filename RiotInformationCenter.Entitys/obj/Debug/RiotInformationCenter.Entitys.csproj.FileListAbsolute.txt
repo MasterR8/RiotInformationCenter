@@ -1,0 +1,4 @@
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\bin\Debug\RiotInformationCenter.Entitys.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\bin\Debug\RiotInformationCenter.Entitys.pdb
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\obj\Debug\RiotInformationCenter.Entitys.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\obj\Debug\RiotInformationCenter.Entitys.pdb

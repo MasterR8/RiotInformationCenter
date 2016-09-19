@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MvvmCommon")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Zuehlke Technology Group")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MvvmCommon")]
-[assembly: AssemblyCopyright("Copyright © Zuehlke Technology Group 2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("44a74ea7-3023-42b4-819a-e938935951e9")]
+[assembly: Guid("9e7c9cee-d3d8-4630-9a10-72ed495b2028")]
 
 // Version information for an assembly consists of the following four values:
 //
