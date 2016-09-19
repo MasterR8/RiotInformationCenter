@@ -1,0 +1,2 @@
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter\bin\Debug\RiotInformationCenter.exe.config
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter\bin\Debug\RiotInformationCenter.exe.config
