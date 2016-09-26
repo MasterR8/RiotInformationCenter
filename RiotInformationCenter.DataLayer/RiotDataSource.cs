@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using System.Web.Helpers;
-using RiotInformationCenter.Entitys;
+using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.DataLayer
 {
@@ -9,11 +10,39 @@ namespace RiotInformationCenter.DataLayer
     {
         public static ChampionListDto GetChampionList()
         {
-            string json;
+            string json = string.Empty;
+            try
+            {
                 json = DownloadJson();
+                var championList = Json.Decode<ChampionListDto>(json);
+                SaveChampionListToDataBase(championList);
+                return championList;
+            }
+            catch (Exception)
+            {
+                return ChampionListFromDataBase();
+            }
 
+        }
 
-            return Json.Decode<ChampionListDto>(json);
+        private static void SaveChampionListToDataBase(ChampionListDto championList)
+        {
+            using (var database = new RiotInformationCenterContext())
+            {
+                //database.ChampionListDto.RemoveRange(database.ChampionListDto);
+                //database.ChampionListDto.Add(championList);
+                //database.SaveChanges();
+            }
+        }
+
+        private static ChampionListDto ChampionListFromDataBase()
+        {
+            ChampionListDto championListDto =new ChampionListDto();
+            using (var dataBase = new RiotInformationCenterContext())
+            {
+                //championListDto = dataBase.ChampionListDto.First();
+            }
+            return championListDto;
         }
 
         private static string DownloadJson()

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RiotInformationCenter.Entitys
+namespace RiotInformationCenter.Entities
 {
     public class ChampionDto
     {

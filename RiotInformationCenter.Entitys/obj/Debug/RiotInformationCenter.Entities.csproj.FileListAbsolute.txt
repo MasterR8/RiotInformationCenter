@@ -1,0 +1,5 @@
+C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\bin\Debug\RiotInformationCenter.Entities.dll
+C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\bin\Debug\RiotInformationCenter.Entities.pdb
+C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\obj\Debug\RiotInformationCenter.Entities.csprojResolveAssemblyReference.cache
+C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\obj\Debug\RiotInformationCenter.Entities.dll
+C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.Entitys\obj\Debug\RiotInformationCenter.Entities.pdb

@@ -11,61 +11,24 @@
     </Window.DataContext>
 
     <Window.Resources>
-        <ControlTemplate x:Key="SelectedItemTemplate">
-            <Border Background="LightSteelBlue">
-                <Grid d:DataContext="{d:DesignInstance d:Type=businessLayer:ChampionViewModel}">
-
-                    <DockPanel>
-                        <Grid>
-
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
-
-                            <DockPanel Grid.Column="0" >
-                                <Image Source="{Binding SquarePictureSource}" VerticalAlignment="Top" />
-                                <StackPanel>
-                                    <TextBlock Text="{Binding Name}" />
-                                    <TextBlock Text="{Binding Title}" />
-                                </StackPanel>
-                            </DockPanel>
-                            <Image Grid.Column="1" Source="{Binding SplashSource}" Stretch="Fill"/>
-
-                        </Grid>
-
-                    </DockPanel>
-                </Grid>
-            </Border>
-        </ControlTemplate>
-
-        <ControlTemplate x:Key="ItemTemplate">
-            <DockPanel d:DataContext="{d:DesignInstance d:Type=businessLayer:ChampionViewModel}">
-                <Border Cursor="Hand" >
-                    <TextBlock Text="{Binding Name}" />
-                </Border>
-            </DockPanel>
-        </ControlTemplate>
-
-        <Style x:Key="ContainerStyle" TargetType="ListViewItem">
-            <Setter Property="Template" Value="{StaticResource ItemTemplate}" />
-            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
-            <Style.Triggers>
-                <MultiTrigger>
-                    <MultiTrigger.Conditions>
-                        <Condition Property="IsSelected" Value="true"></Condition>
-                    </MultiTrigger.Conditions>
-                    <Setter Property="Template" Value="{StaticResource SelectedItemTemplate}" />
-                </MultiTrigger>
-            </Style.Triggers>
-        </Style>
     </Window.Resources>
 
     <Grid>
-        <ListView ItemsSource="{Binding ChampionList}" ItemContainerStyle="{StaticResource ContainerStyle}"/>
+        <ListView ItemsSource="{Binding ChampionList}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Source="{Binding SquarePictureSource}" Stretch="None"/>
+                        <TextBlock Text="{Binding Name}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Window>

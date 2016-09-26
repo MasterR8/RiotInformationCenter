@@ -1,0 +1,45 @@
+﻿<Window x:Class="RiotInformationCenter.Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:businessLayer="clr-namespace:RiotInformationCenter.BusinessLayer;assembly=RiotInformationCenter.BusinessLayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <businessLayer:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+
+
+    </Window.Resources>
+
+    <Grid>
+        <ListView ItemsSource="{Binding ChampionList}">
+            <ItemContainerTemplate>
+                <Grid>
+                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    
+                    
+                </Grid>
+            </ItemContainerTemplate>
+        </ListView>
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
+

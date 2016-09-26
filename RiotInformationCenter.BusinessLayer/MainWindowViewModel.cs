@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using MvvmCommon;
 using RiotInformationCenter.DataLayer;
-using RiotInformationCenter.Entitys;
+using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.BusinessLayer
 {
@@ -29,10 +29,8 @@ namespace RiotInformationCenter.BusinessLayer
 
         private ChampionListDto GetChampionList()
         {
-            ChampionListDto championListDto = new ChampionListDto();
-           
-                championListDto = RiotDataSource.GetChampionList();
-            
+            var championListDto = RiotDataSource.GetChampionList();
+
             return championListDto;
         }
 

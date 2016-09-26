@@ -53,9 +53,9 @@
       <Project>{1b9c668e-cf42-456f-9334-5df021d25a22}</Project>
       <Name>RiotInformationCenter.DataLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RiotInformationCenter.Entitys\RiotInformationCenter.Entitys.csproj">
+    <ProjectReference Include="..\RiotInformationCenter.Entitys\RiotInformationCenter.Entities.csproj">
       <Project>{5263c18c-3daf-49a0-aa16-3ef8a352908f}</Project>
-      <Name>RiotInformationCenter.Entitys</Name>
+      <Name>RiotInformationCenter.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

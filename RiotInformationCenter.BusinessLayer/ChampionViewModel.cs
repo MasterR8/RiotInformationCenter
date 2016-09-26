@@ -1,6 +1,6 @@
 ﻿using MvvmCommon;
 using RiotInformationCenter.DataLayer;
-using RiotInformationCenter.Entitys;
+using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.BusinessLayer
 {

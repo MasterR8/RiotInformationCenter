@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net;
 using System.Text.RegularExpressions;
-using RiotInformationCenter.Entitys;
+using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.DataLayer
 {

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotInformationCenter.BusinessLayer", "RiotInformationCenter.BusinessLayer\RiotInformationCenter.BusinessLayer.csproj", "{927B206B-8D25-4802-8830-967F6CBCC344}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotInformationCenter.Prese
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotInformationCenter.DataLayer", "RiotInformationCenter.DataLayer\RiotInformationCenter.DataLayer.csproj", "{1B9C668E-CF42-456F-9334-5DF021D25A22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotInformationCenter.Entitys", "RiotInformationCenter.Entitys\RiotInformationCenter.Entitys.csproj", "{5263C18C-3DAF-49A0-AA16-3EF8A352908F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotInformationCenter.Entities", "RiotInformationCenter.Entitys\RiotInformationCenter.Entities.csproj", "{5263C18C-3DAF-49A0-AA16-3EF8A352908F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCommon", "MvvmCommon\MvvmCommon.csproj", "{9E7C9CEE-D3D8-4630-9A10-72ED495B2028}"
 EndProject
