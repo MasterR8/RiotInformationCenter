@@ -6,7 +6,7 @@ namespace RiotInformationCenter.BusinessLayer
 {
     public class ChampionViewModel : ObservableObject
     {
-        private ChampionDto _champ;
+        private Champion _champ;
         public string Version { get; set; }
 
         private string name;
@@ -41,7 +41,7 @@ namespace RiotInformationCenter.BusinessLayer
             }
         }
         
-        public ChampionViewModel(ChampionDto champ, string version)
+        public ChampionViewModel(Champion champ, string version)
         {
             _champ = champ;
             Version = version;

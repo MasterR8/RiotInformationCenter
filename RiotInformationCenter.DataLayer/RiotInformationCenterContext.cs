@@ -5,16 +5,16 @@ namespace RiotInformationCenter.DataLayer
 {
     public class RiotInformationCenterContext : DbContext
     {
-        private const string connectionString =
+        private const string ConnectionString =
             @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=RiotInformationCenter;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
 
 
         public RiotInformationCenterContext() 
-            : base(connectionString)
+            : base(ConnectionString)
         {
         }
-        public DbSet<ChampionListDto> ChampionListDto { get; set; }
+        public DbSet<Champion> ChampionListDb { get; set; }
 
         public void FixEfProviderServicesProblem()
         {

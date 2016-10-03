@@ -1,4 +1,4 @@
-﻿namespace RiotInformationCenter.Entities
+﻿namespace RiotInformationCenter.DataLayer
 {
     public class ImageDto
     {

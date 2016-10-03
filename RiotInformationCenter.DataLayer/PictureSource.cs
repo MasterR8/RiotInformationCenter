@@ -1,8 +1,5 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Net;
-using System.Text.RegularExpressions;
-using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.DataLayer
 {
@@ -11,9 +8,9 @@ namespace RiotInformationCenter.DataLayer
         private readonly string _version;
         private readonly ChampionDto _champ;
 
-        public PictureSource(string apiVersion, ChampionDto champ)
+        public PictureSource(ChampionDto champ)
         {
-            _version = apiVersion;
+            _version = champ.Version;
             _champ = champ;
         }
 
@@ -36,7 +33,6 @@ namespace RiotInformationCenter.DataLayer
                     client.DownloadFile(link, pathToImage);
                 }
             }
-
         }
 
         public string GetSplashPath()

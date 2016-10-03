@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Net;
 using System.Web.Helpers;
@@ -8,41 +10,39 @@ namespace RiotInformationCenter.DataLayer
 {
     public static class RiotDataSource
     {
-        public static ChampionListDto GetChampionList()
+        public static List<Champion> GetChampionList()
         {
-            string json = string.Empty;
             try
             {
-                json = DownloadJson();
-                var championList = Json.Decode<ChampionListDto>(json);
-                SaveChampionListToDataBase(championList);
+                var championList = GetChampionListDto().ToChampionList();
+                DataBaseHandler.SaveChampionListToDataBase(championList);
                 return championList;
             }
             catch (Exception)
             {
-                return ChampionListFromDataBase();
-            }
-
-        }
-
-        private static void SaveChampionListToDataBase(ChampionListDto championList)
-        {
-            using (var database = new RiotInformationCenterContext())
-            {
-                //database.ChampionListDto.RemoveRange(database.ChampionListDto);
-                //database.ChampionListDto.Add(championList);
-                //database.SaveChanges();
+                throw new WebException("No connection to the Server");
             }
         }
 
-        private static ChampionListDto ChampionListFromDataBase()
+        private static ChampionListDto GetChampionListDto()
         {
-            ChampionListDto championListDto =new ChampionListDto();
-            using (var dataBase = new RiotInformationCenterContext())
+            string json;
+            try
             {
-                //championListDto = dataBase.ChampionListDto.First();
+                json = DownloadJson();
+                var championList = Json.Decode<ChampionListDto>(json);
+
+                foreach (var champ in championList.Data.Values)
+                {
+                    champ.Version = championList.Version;
+                }
+
+                return championList;
             }
-            return championListDto;
+            catch (Exception)
+            {
+                throw new WebException("No connection to the Server");
+            }
         }
 
         private static string DownloadJson()
@@ -60,8 +60,16 @@ namespace RiotInformationCenter.DataLayer
             }
             catch (Exception e)
             {
-                throw e;
+                throw new WebException();
             }
+        }
+    }
+
+    public static class DataBaseHandler
+    {
+        public static void SaveChampionListToDataBase(List<Champion> championChampionList)
+        {
+            throw new NotImplementedException();
         }
     }
 }

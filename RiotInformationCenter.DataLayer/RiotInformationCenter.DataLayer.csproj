@@ -73,6 +73,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChampionDto.cs" />
+    <Compile Include="ChampionListDto.cs" />
+    <Compile Include="ImageDto.cs" />
+    <Compile Include="IToChampion.cs" />
+    <Compile Include="IToChampionList.cs" />
     <Compile Include="Migrations\201609231219038_Init.cs" />
     <Compile Include="Migrations\201609231219038_Init.Designer.cs">
       <DependentUpon>201609231219038_Init.cs</DependentUpon>

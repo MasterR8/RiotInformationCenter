@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using MvvmCommon;
@@ -18,16 +18,16 @@ namespace RiotInformationCenter.BusinessLayer
 
         private void InitializationChampionList()
         {
-            var championListDto = GetChampionList();
+            var championList = GetChampionList();
             ChampionList = new ObservableCollection<ChampionViewModel>();
-            foreach (var champ in championListDto.Data.Values.OrderBy(champ => champ.Name))
+            foreach (var champ in championList.OrderBy(champ => champ.Name))
             {
-                var championVm = new ChampionViewModel(champ, championListDto.Version);
+                var championVm = new ChampionViewModel(champ);
                 ChampionList.Add(championVm);
             }
         }
 
-        private ChampionListDto GetChampionList()
+        private List<Champion> GetChampionList()
         {
             var championListDto = RiotDataSource.GetChampionList();
 

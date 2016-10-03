@@ -1,13 +1,11 @@
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.DataLayer.dll
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.DataLayer.pdb
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.Entitys.dll
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.Helpers.dll
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.Razor.dll
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.WebPages.dll
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.Entitys.pdb
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.Helpers.xml
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.Razor.xml
 C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\System.Web.WebPages.xml
@@ -41,3 +39,12 @@ C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCen
 C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\obj\Debug\RiotInformationCenter.DataLayer.Migrations.Init.resources
 C:\Users\ra05682a\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\obj\Debug\RiotInformationCenter.DataLayer.csproj.GenerateResource.Cache
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.DataLayer.dll.config
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.Entities.dll
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\RiotInformationCenter.Entities.pdb
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\obj\Debug\RiotInformationCenter.DataLayer.Migrations.Init.resources
+C:\Users\PhB\OneDrive\C#\Programme\RiotInformationCenter\RiotInformationCenter\RiotInformationCenter.DataLayer\obj\Debug\RiotInformationCenter.DataLayer.csproj.GenerateResource.Cache
