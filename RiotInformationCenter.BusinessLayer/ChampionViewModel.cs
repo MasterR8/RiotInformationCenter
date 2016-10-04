@@ -1,84 +1,79 @@
 ﻿using MvvmCommon;
-using RiotInformationCenter.DataLayer;
 using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.BusinessLayer
 {
     public class ChampionViewModel : ObservableObject
     {
-        private Champion _champ;
-        public string Version { get; set; }
+        private readonly Champion _champ;
 
-        private string name;
+        private string _name;
         public string Name
         {
             get
             {
-                if (name == null)
-                    name = _champ.Name;
-                return name;
+                if (_name == null)
+                    _name = _champ.Name;
+                return _name;
             }
             set
             {
-                name = value;
+                _name = value;
                 RaisePropertyChanged();
             }
         }
 
-        private string title;
+        private string _title;
         public string Title
         {
             get
             {
-                if (title == null)
-                    title = _champ.Title;
-                return title;
+                if (_title == null)
+                    _title = _champ.Title;
+                return _title;
             }
             set
             {
-                title = value;
+                _title = value;
                 RaisePropertyChanged();
             }
         }
         
-        public ChampionViewModel(Champion champ, string version)
+        public  ChampionViewModel(Champion champ)
         {
             _champ = champ;
-            Version = version;
         }
 
-        private string squarePictureSource;
-        public string SquarePictureSource
+        private string _squareImageSource;
+        public string SquareImgaeSource
         {
             get
             {
-                if (squarePictureSource == null)
+                if (_squareImageSource == null)
                 {
-                    var pictureSource = new PictureSource(Version, _champ);
-                    SquarePictureSource = pictureSource.GetSquarePicturePath();
+                    SquareImgaeSource = _champ.SquareImage;
                 }
-                return squarePictureSource;
+                return _squareImageSource;
             }
             set
             {
-                squarePictureSource = value;
+                _squareImageSource = value;
                 RaisePropertyChanged();
             }
         }
 
-        private string splashSource;
-        public string SplashSource
+        private string _splashImageSource;
+        public string SplashImageImageSource
         {
             get
             {
-                if (splashSource == null)
+                if (_splashImageSource == null)
                 {
-                    var pictureSource = new PictureSource(Version, _champ);
-                    SplashSource = pictureSource.GetSplashPath();
+                    SplashImageImageSource = _champ.SplaschImage;
                 }
-                return splashSource;
+                return _splashImageSource;
             }
-            set { splashSource = value; }
+            set { _splashImageSource = value; }
         }
     }
 }

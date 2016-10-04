@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using RiotInformationCenter.Entities;
 
 namespace RiotInformationCenter.DataLayer
@@ -14,12 +15,7 @@ namespace RiotInformationCenter.DataLayer
 
         public List<Champion> ToChampionList()
         {
-            var championList = new List<Champion>();
-            foreach (var championDto in Data.Values)
-            {
-                championList.Add(championDto.ToChampion());
-            }
-            return championList;
+            return Data.Values.Select(championDto => championDto.ToChampion()).ToList();
         }
     }
 }

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
 using System.Net;
 using System.Web.Helpers;
 using RiotInformationCenter.Entities;
@@ -58,7 +56,7 @@ namespace RiotInformationCenter.DataLayer
                 }
                 return json;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw new WebException();
             }

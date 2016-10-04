@@ -24,7 +24,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
-                        <Image Source="{Binding SquarePictureSource}" Stretch="None"/>
+                        <Image Source="{Binding SquareImgaeSource}" Stretch="None"/>
                         <TextBlock Text="{Binding Name}" />
                     </StackPanel>
                 </DataTemplate>
